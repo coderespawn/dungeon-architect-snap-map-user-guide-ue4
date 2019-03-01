@@ -6,5 +6,5 @@ permalink: index.html
 folder: snap
 ---
 
-## Introduction
+## Snap Builder 
 
