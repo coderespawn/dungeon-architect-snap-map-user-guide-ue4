@@ -17,11 +17,19 @@ entries:
       output: pdf
       type: frontmatter
 
+  - title: Overview
+    output: web, pdf
+    folderitems:
+    - title: Overview - START HERE
+      url: /index.html
+      output: web, pdf
+
+
   - title: Basics
     output: web, pdf
     folderitems:
     - title: Introduction
-      url: /index.html
+      url: /index2.html
       output: web, pdf
 
     - title: Modules
