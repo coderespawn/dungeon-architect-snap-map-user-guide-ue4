@@ -222,7 +222,7 @@ We'd like to insert Corridors between the rooms.   Create another rule and give 
 
 {% include inline_image.html file="overview/flow_8.png" %}
 
-On the LHS, we want to find patterns two rooms conected to each other (Room -> Room) and have it replaced with (Room -> Corridor -> Room)
+On the LHS, we want to find a patterns where two rooms are connected to each other like this (Room -> Room) and have it replaced with (Room -> Corridor -> Room)
 
 The Graph Grammar will find a pattern you specify on the LHS and replace it with the one you specify on the RHS
 
