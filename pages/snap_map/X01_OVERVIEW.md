@@ -85,7 +85,7 @@ Make sure the scale and movement is snapped to something like 1 and 100 respecti
 
 {% include inline_image.html file="overview/proto_mesh3.png" %}
 
-Complete the design of your room.   We've left holds where there could be a possible entry / exit.  Here, we will place a connection actor to let Dungeon Architect know that it can stitch other modules from this location.
+Complete the design of your room.   We've left holes where there could be a possible entry / exit.  Here, we will place a connection actor to let Dungeon Architect know that it can stitch other modules from this location.
 
 {% include inline_image.html file="overview/proto_mesh4.png" %}
 
@@ -131,7 +131,7 @@ Adjust the size so it is 400x100x400. Always make sure the red arrow points outw
  
 {% include inline_image.html file="overview/connection_4.png" %}
 
-We can specify the door blueprint as well but we'll leave it empty in this example. When designing your door meshes, make sure their width is twice the size of the walls (since we account for the adjacent room as well and the thickness is aligned such that it is in the middle of the red arrow)
+We can specify the door blueprint as well but we'll leave it empty in this example. When designing your door meshes, make sure the thickness is twice the thickness of the walls (since we account for the adjacent room as well and the thickness is aligned such that it is in the middle of the red arrow)
 
 Close the connection editor window
 
