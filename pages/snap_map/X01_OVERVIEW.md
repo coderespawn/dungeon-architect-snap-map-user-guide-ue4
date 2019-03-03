@@ -168,7 +168,7 @@ Open the module database editor
 {% include inline_image.html file="overview/register_module_db_1.png" %}
 
 ---
-Click the **Build Module Cache** button after you've modified the module database.  This is an optimization step so your dungeons build fast at runtime. You'll get a warning on screen DA detects that they are out of date
+Click the **Build Module Cache** button after you've modified the module database.  This is an optimization step so your dungeons build fast at runtime. You'll get a warning on screen DA if detects that they are out of date
 
 
 {% include inline_image.html file="overview/register_module_db_2.png" %}
@@ -179,7 +179,7 @@ Click the **Build Module Cache** button after you've modified the module databas
 
 ## Dungeon Flow
 
-A Dungeon Flow graph allows you to control the layout of your dungeons using Graph Grammars.   You can generate interesting graphs with simple rooms 
+A Dungeon Flow graph allows you to control the layout of your dungeons using Graph Grammars.   You can generate interesting graphs with simple rules 
 
 
 Create a new Dungeon Flow Asset
@@ -221,7 +221,7 @@ We'd like to insert Corridors between the rooms.   Create another rule and give 
 
 {% include inline_image.html file="overview/flow_8.png" %}
 
-On the LHS, we want to find patterns two rooms conected to each other (Room -> Room) and have it replaced with (Room -> Corridor -> Room)
+On the LHS, we want to find a patterns where two rooms are connected to each other like this (Room -> Room) and have it replaced with (Room -> Corridor -> Room)
 
 The Graph Grammar will find a pattern you specify on the LHS and replace it with the one you specify on the RHS
 
